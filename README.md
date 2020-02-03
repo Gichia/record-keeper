@@ -20,3 +20,19 @@ These are the base functionalities of the application.
 
 * Create a free account.
 * Publish your records.
+
+
+# Users
+
+## [POST] Add New User
+`http://localhost:5000/api/users`
+
+**Required Querystrings**
+
+|  Param 	| Sample     |	Type	|	Description	|
+| --------  | ------	 | -------	| ----------	|
+| name  | `Jane Doe` | String  | Name of user being registered |
+| email  | `jane@gmail.com` | String | Unique email to identify the user |
+| password  | `password` | String | A strong password to secure the account |
+
+**No Optional Querystrings**
